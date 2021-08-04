@@ -13,7 +13,7 @@ After the environment is activated, the following will install the dependencies 
 `pip install -r requirements.txt`
 
 ### Generating the images
-Let's say we want to create 1000 images to train with, and 200 to test against. We can do the following in IDLE 
+Let's say we want to create 1000 images to train with, and 200 to test against. We can do the following in IDLE (or however else you might want to do it)
 
 ```
 >>> from generate_shapes import create_all_shapes
