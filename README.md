@@ -4,12 +4,15 @@ This small project is a essentially a "Hello World!" of image-based machine lear
 ## Quick Setup
 ### Setting up the environment
 In the root directory, create a virtualenv called `.venv` with the following:
+
 `$ python3.9 -m venv .venv`
 
 From there, activate the virtual environment using:
+
 `$ source .venv/bin/activate`
 
 After the environment is activated, the following will install the dependencies needed
+
 `pip install -r requirements.txt`
 
 ### Generating the images
@@ -43,4 +46,4 @@ From there, you can run the notebook (`shapes_ml.ipynb`) file using jupyter note
 Currently the images have the following attributes
 1. 24x24 using 8-bit pixels, black and white
 2. 1 shape per image, in a random location with random height and width 
-3. The shapes stay fully inside the image
+3. The shape stays fully inside the image
