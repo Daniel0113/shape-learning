@@ -23,10 +23,10 @@ def create_black_and_white_shape(shape, training_or_testing, shape_id):
     img.save(directory)
 
 def create_shapes(shape, num_shapes, training_or_testing):
-    shapes = ['rectangle', 'ellipse', 'triangle']
     for i in range(num_shapes):
         create_black_and_white_shape(shape, training_or_testing, i)
 
-# create_shapes('rectangle', 1000, 'training')
-# create_shapes('ellipse', 1000, 'training')
-# create_shapes('triangle', 1000, 'training')
+def create_all_shapes(num_shapes, training_or_testing):
+    shapes = ['rectangle', 'ellipse', 'triangle']
+    for shape in shapes:
+        create_shapes(shape, num_shapes, training_or_testing)
