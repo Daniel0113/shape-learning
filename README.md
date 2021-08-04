@@ -39,7 +39,7 @@ ellipse: 1
 triangle: 2
 ```
 
-From there, you can run the notebook (`shapes_ml.ipynb`) file using the `jupyter notebook` command at the root directory. You may notice that the accuracy isn't the best. How might this be improved? How much more accurate is the model if using 2000, 3000, or more training sets?
+From there, you can run the notebook (`shapes_ml.ipynb`) file using the `jupyter notebook` command at the root directory. You may notice that the accuracy isn't the best. How might this be improved? How much more accurate is the model if using 2000, 3000, or more training images per shape?
 
 
 ## Some notes about the image generation
